@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #fef6e4;
+  font-family: sans-serif;
+  color: #fef6e4;
+  font-size: 14px;
+}
+
+.container {
+  background: #8bd3dd;
+  width: 300px;
+  height: 1000px;
+  margin: 50px auto;
+
+}
+
+p{
+  width: 100px;
+  height: 100px;
+}
+
+.static {
+  background: #ffc0ad;
+  color: #271c19;
+  border: 5px solid #9656a1;
+  
+}
+
+.relative {
+  background: #172c66;
+  border: 5px solid #f582ae;
+  
+}
+
+.absolute {
+  background: #ff8ba7;
+  color: #33272a;
+  border: 5px solid #c3f0ca;
+  
+}
+
+.fixed {
+  background: #ffd803;
+  color: #272343;
+  border: 5px solid #272343;
+  
+}
+
+.sticky {
+  background: #232946;
+  color: #b8c1ec;
+  border: 5px solid #eebbc3;
+  
+}
